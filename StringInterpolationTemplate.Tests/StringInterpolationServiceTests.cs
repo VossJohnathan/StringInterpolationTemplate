@@ -99,4 +99,12 @@ public class StringInterpolationServiceTests
 
         Assert.Equal("     3.142", response);
     }
+
+    [Fact]
+    public void StringInterpolationService_Number11_Success()
+    {
+        var response = _service.Number11();
+
+        Assert.Equal("7E3", response);
+    }
 }
